@@ -1,0 +1,242 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos do body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Estilos do container */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos dos títulos */
+, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+/* Estilos dos links */
+a {
+  color: #c00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos do formulário */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], [type="password"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #c00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #c00;
+}
+
+/* Estilos da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #c00;
+  color: #fff;
+}
+
+/* Estilos dos alertas */
+.alert {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  color: #a94442;
+  border: 2px solid #ebccd1;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  color: #3c763d;
+  border: 2px solid #d6e9c6;
+}
+button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #990000;
+}
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Define a aparência do botão de dropdown */
+select::after {
+  content: "\25BC";
+  font-size: 16px;
+  color: #555;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Define a aparência do select quando está com foco */
+select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Define a aparência do select quando o mouse está sobre ele */
+select:hover {
+  border-color: #555;
+}
+
+/* Define a aparência do select quando está aberto */
+select:active, select.open {
+  border-color: #4CAF50;
+}
+
+/* Define a aparência das opções do select */
+option {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+    h1 {
+            color: #FF0000; /* Define a cor vermelha */
+            font-size: 36px; /* Define o tamanho da fonte */
+            font-weight: bold; /* Define a espessura da fonte */
+            text-align: center; /* Centraliza o texto */
+            margin-top: 50px; /* Adiciona uma margem superior */
+            text-transform: uppercase; /* Transforma o texto em caixa alta */
+            letter-spacing: 3px; /* Define o espaçamento entre as letras */
+            font-family: Arial, sans-serif; /* Define a fonte */
+        }
+a {
+  color: #FF0000; /* define a cor do texto do link */
+  text-decoration: none; /* remove a sublinhado padrão do link */
+  font-weight: bold; /* define o peso da fonte como negrito */
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline; /* adiciona um sublinhado quando o link é hoverado */
+}
